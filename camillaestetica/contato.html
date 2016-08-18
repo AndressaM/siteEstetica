@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/ds.css">
+    <title>Mirror Fashion</title>
+    <meta charset="utf-8">
+</head>
+<body bgcolor="8c6e76">
+    <header>
+        <h1><img src="img/logo-contato.png" alt="Mirror Fashion"></h1>
+
+
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="servico.html">Serviços</a></li>
+                <li><a href="ds.html">Design de Sombrancelhas</a></li>
+                
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container destaque">
+       <img src="img/banners/banner4.png" alt="Logo Mirror Fashion">
+
+   </div><!-- fim .container .destaque -->
+    <!-- começo do mapa-->
+   <script
+   src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(-9.552750, -35.757808),
+        zoom:19,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+
+    <div id="googleMap" style="width:1500px;height:300px;"></div>
+    <footer>
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
+
+            <ul class="social">
+                <li><a href="https://www.facebook.com/Camilla-Est%C3%A9tica-924396727595843/?fref=ts">Facebook</a></li>
+                <li><a href="https://www.instagram.com/cm_sobrancelha/">Instagram</a></li>
+
+            </ul>
+
+        </div>
+    </footer>
+
+</body>
+</html>
